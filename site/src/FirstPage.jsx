@@ -4,7 +4,7 @@ function FirstPage() {
         <>
             <nav className="nav">
                 <div className="nom">
-                    <a href="#">Laurentiu Dilionsadasdasd</a>
+                    <a href="#">Laurentiu Dilion</a>
                 </div>
 
                 <ul>
