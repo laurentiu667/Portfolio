@@ -4,7 +4,7 @@ function FirstPage() {
         <>
             <nav className="nav">
                 <div className="nom">
-                    <a href="#">Laurentiu ca marche</a>
+                    <a href="#">Laurentiu Dilion</a>
                 </div>
 
                 <ul>
@@ -23,7 +23,7 @@ function FirstPage() {
                 </ul>
 
                 <div className="bt-myproject gh-button-general">
-                    <button className="gh-button-general gh-button-general-bk">
+                    <button className="bt-project gh-button-general gh-button-general-bk">
                         <svg
                             className="svg-project"
                             viewBox="0 0 20 20"

@@ -65,12 +65,14 @@ p {
 .gh-button-general {
     font-size: 0.75rem;
     height: 30px;
-    padding: 0 0.75em 0 0.75em;
 
     border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.bt-project {
+    padding: 0.5em;
 }
 .gh-button-general > svg {
     width: 25px;
@@ -200,27 +202,28 @@ p {
     gap: 20px;
     margin-bottom: 50px;
     padding: 1em;
+    width: 100%;
 }
 
 .container-exp {
     border-radius: 4px;
-    
     height: 400px;
+    width: 400px;
     background-color: var(--section-background-site);
     border: 1px solid var(--border-bg);
+
     flex-grow: 1;
-    flex: 1;
     display: grid;
     grid-template-rows: 1fr 4fr 10fr;
     padding: 1em;
 }
 
-.image-exp{
+.image-exp {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.image-exp > img{
+.image-exp > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -231,13 +234,12 @@ p {
     background-color: var(--text-color);
     color: var(--text-black);
     border: 1px solid var(--text-black);
-    border-radius: 21px;
+    border-radius: 5px;
     width: 150px;
     height: 25px;
 }
 
-.container-project{
-    
+.container-project {
     background-color: #212124;
     border-radius: 21px;
     width: 100%;
@@ -248,14 +250,11 @@ p {
     gap: 10px;
 }
 
-.top-container-pj{
-  
+.top-container-pj {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
- 
-    
 }
 .top-container-pj button {
     background-color: #161618;
@@ -273,12 +272,11 @@ p {
     display: flex;
     gap: 25px;
 }
-.top-container-pj ul li svg{
+.top-container-pj ul li svg {
     width: 35px;
     height: 35px;
-
 }
-.top-container-pj button a svg{
+.top-container-pj button a svg {
     width: 15px;
     height: 15px;
     margin-left: 5px;
@@ -292,24 +290,23 @@ p {
     color: grey;
     width: 60%;
 }
-.bottom-container{
+.bottom-container {
     width: 100%;
-  
+
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    
-    
 }
-.project{
+
+.project {
     flex-grow: 1;
     border-radius: 5px;
     width: 300px;
     height: 300px;
-    background-color: #393A41;
+    background-color: #393a41;
 }
 
-.passion{
+.passion {
     width: 100dvw;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -318,21 +315,18 @@ p {
     display: grid;
     place-content: center;
     text-align: center;
-
 }
 .image-keyboard-container {
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
 
     width: 100%;
 
     margin-bottom: 100px;
     gap: 10px;
-
 }
 
 .first-kb {
-  
     height: 500px;
 }
 
@@ -343,23 +337,23 @@ p {
 }
 
 .first-kb-container {
-    
     height: 500px;
 }
 
 .second-kb-container {
-  
     height: 500px;
 }
 
-.first-kb-container img, .second-kb-container img, .first-kb img {
+.first-kb-container img,
+.second-kb-container img,
+.first-kb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.begin-with-me{
+.begin-with-me {
     width: 100dvw;
-   
+
     margin-bottom: 50px;
     height: 300px;
     background-color: var(--text-color);
@@ -370,9 +364,8 @@ p {
     gap: 10px;
 
     text-align: center;
-
 }
-.info-bottom{
+.info-bottom {
     width: 100%;
     height: 400px;
 
@@ -395,7 +388,7 @@ p {
 .footer {
     width: 100dvw;
     background-color: black;
- 
+
     height: 100px;
     align-items: center;
     display: flex;
@@ -404,25 +397,37 @@ p {
     color: var(--text-color);
 }
 
-
 @media screen and (max-width: 250px) {
     .svg-project {
-        display: none;
+        width: 15px;
+        height: 15px;
+    }
+    .bt-project {
+        width: 80%;
+
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .bt-myproject {
+        width: 80%;
+    }
+    .nom {
+        width: 80%;
     }
     .nom a {
         font-size: 15px;
     }
     .bt-myproject a {
-        font-size: 7px;
+        font-size: 10px;
     }
     .bt-hire {
-       height: 40px;
-        font-size: .7rem;
+        height: 40px;
+        font-size: 0.7rem;
         gap: 15px;
     }
     .bt-hithub {
         height: 40px;
-        font-size: .7rem;
+        font-size: 0.7rem;
         gap: 10px;
     }
     .top-container-pj ul {
@@ -431,10 +436,44 @@ p {
         align-items: center;
         justify-content: center;
     }
-    .footer p{
+    .footer p {
         font-size: 7px !important;
     }
-    
+    .button-web-exp{
+        width: fit-content;
+        font-size: .75em;
+        padding: 0.4em;
+    }
+    .top-container-pj button {
+        width: fit-content;
+    }
+    .passion h1, .begin-with-me h1{
+        font-size: 8px !important;
+    }
+    .passion p {
+        font-size: 7px;
+    }
+    .bt-hire {
+        height: 30px;
+        width: fit-content;
+        padding: 1em;
+        gap: 5px;
+    }
+    .begin-with-me, .passion {
+        height: 150px;
+        margin-bottom: 20px !important;
+        margin-top: 20px;
+    }
+    .info-bottom h1{
+        font-size: 20px;
+    }
+    .info-bottom p{
+        font-size: 10px;
+    }
+    .info-bottom{
+        height: 150px;
+     
+    }
 }
 @media screen and (max-width: 500px) {
     .container-button > * {
@@ -443,7 +482,7 @@ p {
     .nav {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
         width: 100%;
         min-height: 100px;
@@ -455,35 +494,49 @@ p {
     .image-info {
         margin-top: 10%;
     }
-   
-    .footer p{
+
+    .footer p {
         font-size: 10px;
     }
+    .bt-myproject {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .info-text {
+        margin-bottom: 0px !important;
+    }
+    .container-exp > button {
+        width: fit-content;
+        height: fit-content;
+        padding: 0.25em;
+    }
+    .top-container-pj button {
+        font-size: calc(6px + 1vw) !important;
+    }
+    .passion h1, .begin-with-me h1{
+        font-size: 20px;
+    }
     
-   
 }
 @media screen and (max-width: 570px) {
-    .top-container-pj{
+    .top-container-pj {
         display: flex;
         flex-direction: column;
         gap: 10px;
-
     }
-    .top-container-pj ul{
+    .top-container-pj ul {
         place-content: center;
-        
     }
-    .top-container-pj button{
-        font-size: 10px;
+    .top-container-pj button {
+        font-size: 15px;
     }
-    .top-container-pj ul li svg{
-        width: 18px;
-        height: 18px;
+    .top-container-pj ul li svg {
+        width: 25px;
+        height: 25px;
     }
-    .footer p{
+    .footer p {
         font-size: 12px;
     }
-   
 }
 @media screen and (max-width: 1200px) {
     .info-page {
@@ -493,6 +546,7 @@ p {
     .info-text {
         width: 100%;
         padding-top: 0em;
+        margin-bottom: 25px;
         padding-left: 0em;
     }
 
@@ -502,8 +556,10 @@ p {
     .image-info {
         width: 100%;
     }
+
     .image-info > img {
         height: 400px;
+        width: 100%;
     }
     .nav ul {
         display: none;
@@ -512,35 +568,29 @@ p {
         width: 100%;
     }
     .first-kb {
-    
-         
         height: 100%;
     }
-    
-    
+
     .first-kb-container {
-        
         height: 100%;
     }
-    
+
     .second-kb-container {
-       
-          
         height: 100%;
     }
     .footer {
         width: 100dvw;
         background-color: black;
-       
+
         height: 70px;
-       
+
         align-items: center;
         display: flex;
         text-align: center;
         justify-content: center;
         color: var(--text-color);
     }
-    .footer p{
+    .footer p {
         font-size: 14px;
     }
 }
