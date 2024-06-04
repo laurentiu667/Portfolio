@@ -2,8 +2,11 @@ import backend from "../img/backend.jpg";
 import frontend from "../img/frontend.png";
 import mobiledev from "../img/mobiledev.png";
 
+import cycle7 from  "../img/cycle7.jpg";
+import cycle7v2 from  "../img/cycle7v2.jpg";
 import f1 from "../img/f18x.jpg";
 import f12 from "../img/f18x2.jpg";
+import neoergo from "../img/neoergo.webp";
 import hhkb from "../img/hhkb.png";
 function SecondPage() {
     return (
@@ -88,11 +91,15 @@ function SecondPage() {
                 </div>
                 <div className="second-kb">
                     <div className="first-kb-container">
-                        <img src={f12} alt="" />
+                        <img src={neoergo} alt="" />
                     </div>
                     <div className="second-kb-container">
-                        <img src={hhkb} alt="" />
+                        <img src={cycle7} alt="" />
                     </div>
+                </div>
+                <div className="first-kb fourth-kb">
+                    <img src={cycle7v2} alt="" />
+                    
                 </div>
             </section>
             <div className="begin-with-me">

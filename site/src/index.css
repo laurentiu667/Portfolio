@@ -7,7 +7,9 @@
     font-family: "Poppins", sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
 body {
     display: grid;
     place-items: center;
@@ -84,11 +86,13 @@ p {
 .gh-button-general-bk {
     background-color: var(--text-black);
     color: var(--text-color);
+    transition: background-color 0.3s cubic-bezier(1,0,0,.99);
 }
 .gh-button-general-wh {
     background-color: var(--text-color);
     color: var(--text-black);
-    border: 1px solid var(--border-bg);
+    border: 1px solid var(--text-black);
+    transition: background-color 0.3s cubic-bezier(1,0,0,.99);
 }
 
 .gh-button-general-bk:hover {
@@ -196,12 +200,12 @@ p {
 }
 .experience {
     margin-top: 50px;
-    background-color: var(--text-color);
+    
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 50px;
-    padding: 1em;
+
     width: 100%;
 }
 
@@ -209,7 +213,7 @@ p {
     border-radius: 4px;
     height: 400px;
     width: 400px;
-    background-color: var(--section-background-site);
+    background-color: var(--text-color);
     border: 1px solid var(--border-bg);
 
     flex-grow: 1;
@@ -222,6 +226,8 @@ p {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    border: 1px solid black;
+    border-radius: 6px;
 }
 .image-exp > img {
     height: 100%;
@@ -318,16 +324,15 @@ p {
 }
 .image-keyboard-container {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-
+    grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
-
     margin-bottom: 100px;
     gap: 10px;
 }
 
+
 .first-kb {
-    height: 500px;
+    height: 700px;
 }
 
 .second-kb {
@@ -337,12 +342,13 @@ p {
 }
 
 .first-kb-container {
-    height: 500px;
+    height: 700px;
 }
 
 .second-kb-container {
-    height: 500px;
+    height: 700px;
 }
+
 
 .first-kb-container img,
 .second-kb-container img,
@@ -350,6 +356,7 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 .begin-with-me {
     width: 100dvw;
