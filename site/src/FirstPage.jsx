@@ -149,92 +149,98 @@ function FirstPage() {
                     <div className="info-social">
                         <a href="">Other socials</a>
                         <ul>
-                            <li>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="512"
-                                    height="512"
-                                    fill="none"
-                                    viewBox="0 0 512 512"
-                                    id="twitter"
-                                >
-                                    <g clip-path="url(#clip0_84_15697)">
-                                        <rect
-                                            width="512"
-                                            height="512"
-                                            fill="#000"
-                                            rx="60"
-                                        ></rect>
-                                        <path
-                                            fill="#fff"
-                                            d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"
-                                        ></path>
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_84_15697">
+                            <li >
+                                <a href="https://x.com/horlogedu91">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="512"
+                                        height="512"
+                                        fill="none"
+                                        viewBox="0 0 512 512"
+                                        id="twitter"
+                                    >
+                                        <g clip-path="url(#clip0_84_15697)">
                                             <rect
                                                 width="512"
                                                 height="512"
-                                                fill="#fff"
+                                                fill="#000"
+                                                rx="60"
                                             ></rect>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
+                                            <path
+                                                fill="#fff"
+                                                d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"
+                                            ></path>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_84_15697">
+                                                <rect
+                                                    width="512"
+                                                    height="512"
+                                                    fill="#fff"
+                                                ></rect>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
                             </li>
                             <li>
-                                <svg
-                                    viewBox="0 -3 20 20"
-                                    version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    fill="#000000"
-                                >
-                                    <g
-                                        id="SVGRepo_bgCarrier"
-                                        stroke-width="0"
-                                    ></g>
-                                    <g
-                                        id="SVGRepo_tracerCarrier"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    ></g>
-                                    <g id="SVGRepo_iconCarrier">
-                                        {" "}
-                                        <title>youtube [#168]</title>{" "}
-                                        <desc>Created with Sketch.</desc>{" "}
-                                        <defs> </defs>{" "}
+                                <a href="https://www.youtube.com/channel/UCa1sCsV0b3wOCPsedC_aePg">
+                                    <svg
+                                        viewBox="0 -3 20 20"
+                                        version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        fill="#000000"
+                                    >
                                         <g
-                                            id="Page-1"
-                                            stroke="none"
-                                            stroke-width="1"
-                                            fill="none"
-                                            fill-rule="evenodd"
-                                        >
+                                            id="SVGRepo_bgCarrier"
+                                            stroke-width="0"
+                                        ></g>
+                                        <g
+                                            id="SVGRepo_tracerCarrier"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></g>
+                                        <g id="SVGRepo_iconCarrier">
                                             {" "}
+                                            <title>youtube [#168]</title>{" "}
+                                            <desc>Created with Sketch.</desc>{" "}
+                                            <defs> </defs>{" "}
                                             <g
-                                                id="Dribbble-Light-Preview"
-                                                transform="translate(-300.000000, -7442.000000)"
-                                                fill="#000000"
+                                                id="Page-1"
+                                                stroke="none"
+                                                stroke-width="1"
+                                                fill="none"
+                                                fill-rule="evenodd"
                                             >
                                                 {" "}
                                                 <g
-                                                    id="icons"
-                                                    transform="translate(56.000000, 160.000000)"
+                                                    id="Dribbble-Light-Preview"
+                                                    transform="translate(-300.000000, -7442.000000)"
+                                                    fill="#000000"
                                                 >
                                                     {" "}
-                                                    <path
-                                                        d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
-                                                        id="youtube-[#168]"
+                                                    <g
+                                                        id="icons"
+                                                        transform="translate(56.000000, 160.000000)"
                                                     >
                                                         {" "}
-                                                    </path>{" "}
+                                                        <path
+                                                            d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
+                                                            id="youtube-[#168]"
+                                                        >
+                                                            {" "}
+                                                        </path>{" "}
+                                                    </g>{" "}
                                                 </g>{" "}
                                             </g>{" "}
-                                        </g>{" "}
-                                    </g>
-                                </svg>
+                                        </g>
+                                    </svg>
+                                </a>
+                                
                             </li>
                             <li>
+                                <a href="https://www.instagram.com/laurentiu_dilion/">
                                 <svg
                                     fill="#000000"
                                     height="200px"
@@ -266,8 +272,11 @@ function FirstPage() {
                                         </g>{" "}
                                     </g>
                                 </svg>
+                                </a>
+                                
                             </li>
                             <li>
+                                <a href="https://www.facebook.com/Laurentiu6677/">
                                 <svg
                                     fill="#000000"
                                     viewBox="0 0 24 24"
@@ -286,6 +295,8 @@ function FirstPage() {
                                         <path d="m12 0c-6.627 0-12 4.974-12 11.111.035 3.55 1.774 6.686 4.438 8.633l.031.021v4.235l4.088-2.242c1.031.295 2.215.464 3.439.464h.004c6.627 0 12-4.975 12-11.11s-5.373-11.112-12-11.112zm1.191 14.963-3.055-3.263-5.963 3.26 6.559-6.96 3.131 3.259 5.889-3.259z"></path>
                                     </g>
                                 </svg>
+                                </a>
+                                
                             </li>
                         </ul>
                     </div>
