@@ -8,6 +8,7 @@ import f1 from "../img/f18x.jpg";
 import f12 from "../img/f18x2.jpg";
 import neoergo from "../img/neoergo.webp";
 import hhkb from "../img/hhkb.png";
+import ContactForm from "./ContactForm.jsx";
 function SecondPage() {
     return (
         <>
@@ -104,36 +105,7 @@ function SecondPage() {
             </section>
             <div className="begin-with-me">
                 <h1>Let's Begin Together and Finish United: Mobile App and Website Development</h1>
-                <form className="formulaire" action="" method="post">
-                    <div className="container-form-left">
-                        <h1>Let's Chat</h1>
-                        <p className="form-p1">Contact me for any information or to start a project. Fill out the form below and I'll respond as soon as possible</p>
-                        <p className="form-p2">Your device screen is too small to display the form effectively. Please try accessing this page from a larger device or a desktop computer for a better experience</p>
-
-                    </div>
-                    <div className="container-form-right">
-                        <div className="name-info">
-                            <input type="text" name="Name" placeholder="Type your name" id="" />
-                            <input type="text" name="LastName" placeholder="Type your last name" id="" />
-                        </div>
-
-                        <div className="company-name">
-                            <input type="text" name="company-name" placeholder="Company name" id="" />
-                            <input type="email" name="email" placeholder="Email" id="" />
-                        </div>
-                        <div className="phone">
-                            <input type="tel" name="" id="" />
-                        </div>
-                        <div className="text-message">
-                            <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message"></textarea>
-                        </div>
-                        
-                        <div className="submit">
-                            <input type="submit" name=""  id="" />
-                        </div>
-
-                    </div>
-                </form>
+                <ContactForm/>
             </div>
 
             <div className="info-bottom">
