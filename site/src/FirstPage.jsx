@@ -72,7 +72,7 @@ function FirstPage() {
                                 </g>{" "}
                             </g>
                         </svg>
-                        <a href="#">My Projects</a>
+                        <a href="https://github.com/laurentiu667">My Projects</a>
                     </button>
                 </div>
             </nav>
@@ -142,7 +142,7 @@ function FirstPage() {
                                     </g>
                                 </svg>
 
-                                <a href="#">My GitHub</a>
+                                <a href="https://github.com/laurentiu667">My GitHub</a>
                             </button>
                         </div>
                     </div>
