@@ -13,7 +13,7 @@ function SecondPage() {
     return (
         <>
             <button className="button-web-exp">My Web Experience</button>
-            <section className="experience">
+            {/* <section className="experience">
                 <div className="container-exp">
                     <button>Back-End</button>
                     <p>
@@ -21,7 +21,7 @@ function SecondPage() {
                         Veniam, odio.
                     </p>
                     <div className="image-exp">
-                        <img src={backend} alt="" />
+                    <svg viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M628.9 935.1L213.8 797.8l165-130 389.1 107.3z" fill="#A1BBC6"></path><path d="M767.9 775.1V788l-139 161.3v-14.2z" fill="#678289"></path><path d="M628.9 949.3v-14.2L213.8 797.8v13.9z" fill="#BACCD3"></path><path d="M600.1 729l157.2 43.3-117 13.4-39.5 19.1z" fill="#8EA8AF"></path><path d="M404.9 583.2l31.4 173.6 164.5 48-28.9-170.6z" fill="#7C99A3"></path><path d="M598.6 700l16.5 91-14.3 13.8L581.1 703z" fill="#678289"></path><path d="M884 792.4L114 584.9v-491l770 162.5z" fill="#37BBEF"></path><path d="M909 751.9l-25 40.5v-536l26-27.5z" fill="#678289"></path><path d="M910 228.9L151.4 74.7 114 93.9l770 162.5z" fill="#A1BBC6"></path><path d="M114 93.9v491l770 207.5v-536L114 93.9z m755.6 616.5l-746-192.5V106l746 161v443.4z" fill="#BACCD3"></path><path d="M850.8 724.5v17l-39.5-11V714z" fill="#FFFFFF"></path><path d="M846 727.3v8.9l-29.9-8.4v-8.5z" fill="#113B42"></path><path d="M787.6 708v17l-39.5-11v-16.5z" fill="#FFFFFF"></path><path d="M784.1 711.1v9.5l-32.5-9.1v-9z" fill="#113B42"></path><path d="M853.3 703.6l-213-485.8 229.1 49.3-0.1 441z" fill="#3ED6FF"></path><path d="M124.9 106v412.8" fill="#3ED6FF"></path></g></svg>
                     </div>
                 </div>
                 <div className="container-exp">
@@ -31,7 +31,7 @@ function SecondPage() {
                         Similique, ducimus.
                     </p>
                     <div className="image-exp">
-                        <img src={frontend} alt="" />
+                    <svg viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M945 648V502.7l-91.4-18.3c-7.7-35.9-20.7-70.8-38.1-103.3l64.6-54.7-98.3-121.2-64.6 54.7c-28-23.4-58.9-42.9-92-57.1v-94.4L486.1 82.2v93.9c-33 1.6-64 9-92 21.4L329.5 119l-98.3 81.3 64.6 78.5c-17.4 25.1-30.5 54.1-38.1 86.2l-91.4-18.3v141.1l91.4 18.8c7.7 35.2 20.7 69.5 38.1 101.7l-64.6 52.2 98.3 121.2 64.6-52.2c28 23.8 58.9 43.8 92 58.8v93.9l139.1 30.3v-94.4c33-0.9 64-7.7 92-19.8l64.6 80.9 98.3-81.3-64.6-80.9c17.4-25.5 30.5-55 38.1-87.8L945 648z m-389.4-30.2c-65.1-13.5-117.9-78.6-117.9-145.4s52.8-110.5 117.9-97.5 117.9 78 117.9 145.4c0.1 67.3-52.7 111-117.9 97.5z" fill="#1B9BDB"></path><path d="M250.6 790.5l-8.8 20.8 87.8-29.6-17.8-35.3zM78.8 375.8L183.7 409l-17-62.5zM533.4 884l3.3 57.3 89.1-29.3zM264.1 185.4l65.7-66.1-88.2 29z" fill="#1B9BDB"></path><path d="M857.2 677.3V532l-91.4-18.3c-7.7-35.9-20.7-70.8-38.1-103.3l64.6-54.7L694 234.4l-64.6 54.7c-28-23.4-58.9-42.9-92-57.1v-94.4l-139.1-26.1v93.9c-33 1.6-64 9-92 21.4l-64.6-78.5-98.3 81.3 64.6 78.5c-17.4 25.1-30.5 54.1-38.1 86.2L78.5 376v141.1l91.4 18.8c7.7 35.2 20.7 69.5 38.1 101.7l-64.6 52.2L241.7 811l64.6-52.2c28 23.8 58.9 43.8 92 58.8v93.9l139.1 30.3v-94.4c33-0.9 64-7.7 92-19.8l64.6 80.9 98.3-81.3-64.6-80.9c17.4-25.5 30.5-55 38.1-87.8l91.4 18.8z m-389.4-30.2c-65.1-13.5-117.9-78.6-117.9-145.4s52.8-110.5 117.9-97.5 117.9 78 117.9 145.4c0.1 67.3-52.7 111-117.9 97.5z" fill="#3ED6FF"></path><path d="M398.1 111.2l138.9 27 87.8-29.6-138.2-26zM694.1 908.4l88.1-29.6 97.9-80.6-87.8 29.2zM856.7 677.8l88.8-29.9-1-144.8-86.8 29zM880.5 327.2l-98.6-121.3-87.8 28.9 97.6 121.3z" fill="#2481BA"></path></g></svg>
                     </div>
                 </div>
                 <div className="container-exp">
@@ -41,10 +41,10 @@ function SecondPage() {
                         elit. Quis, molestias.
                     </p>
                     <div className="image-exp">
-                        <img src={mobiledev} alt="" />
+                    <svg viewBox="-12.01 0 74.069 74.069" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <metadata> <rdf:rdf> <cc:work> <dc:subject> Compute </dc:subject> <dc:identifier> mobile-services </dc:identifier> <dc:title> Mobile Services </dc:title> <dc:format> image/svg+xml </dc:format> <dc:publisher> Amido Limited </dc:publisher> <dc:creator> Richard Slater </dc:creator> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type> </cc:work> </rdf:rdf> </metadata> <path d="m 445.14618,364.16545 c -2.32897,0 -4.19141,1.8624 -4.19141,4.1914 l 0,65.6238 c 0,2.32889 1.86244,4.25389 4.19141,4.25389 l 41.66391,0 c 2.32898,0 4.19142,-1.925 4.19142,-4.25389 l 0,-65.6238 c 0,-2.329 -1.86244,-4.1914 -4.19142,-4.1914 l -41.66391,0 z m 11.82355,4.0037 18.01682,0 0,2.0019 -18.01682,0 0,-2.0019 z m -12.01122,6.0056 42.03926,0 0,52.0486 -42.03926,0 0,-52.0486 z m 20.89451,14.5136 -10.88516,5.5051 10.88516,6.5061 11.1354,-6.5061 -11.1354,-5.5051 z m -10.88516,7.507 0,12.0112 10.00934,6.0056 0,-12.0112 -10.00934,-6.0056 z m 22.02056,0.062 -10.00935,6.0057 0,12.0112 10.00935,-6.0056 0,-12.0113 z m -18.01682,33.9693 14.01308,0 0,4.0037 -14.01308,0 0,-4.0037 z" fill="#00bcf2" transform="translate(-440.955 -364.165)"></path> </g></svg>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="container-project">
                 <div className="top-container-pj">

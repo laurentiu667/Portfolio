@@ -114,9 +114,9 @@ const ContactForm = () => {
                         rows="10"
                     ></textarea>
                 </div>
-                <div className="submit">
+                <button className="gh-button-general-wh button-submit">
                     <input type="submit" value="Send" />
-                </div>
+                </button>
 
                 <h1 className="messagebon">{status}</h1>
                 <h1 className="messagepasbon">{statusbad}</h1>
