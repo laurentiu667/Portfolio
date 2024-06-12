@@ -2,6 +2,7 @@ import image from "../img/creative-dev.jpg";
 function FirstPage() {
     return (
         <>
+        VERSION TEST ( IMAGE NON CONFORME )
             <nav className="nav">
                 <div className="nom">
                     <a href="#">Laurentiu Dilion</a>

@@ -9,6 +9,8 @@ import f12 from "../img/f18x2.jpg";
 import neoergo from "../img/neoergo.webp";
 import hhkb from "../img/hhkb.png";
 import ContactForm from "./ContactForm.jsx";
+
+import ContactSteps from "./ContactSteps.jsx";
 function SecondPage() {
     return (
         <>
@@ -231,6 +233,8 @@ function SecondPage() {
                     <img src={cycle7v2} alt="" />
                 </div>
             </section>
+            <ContactSteps/>
+
             <div className="begin-with-me">
                 <h1>
                     Let's Begin Together and Finish United: Mobile App and
