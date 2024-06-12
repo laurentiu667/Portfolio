@@ -165,7 +165,11 @@ p {
 .info-text p {
     margin-bottom: 50px;
 }
-.info-top {
+.info-top h1{
+    font-size: 3em;
+}
+.info-top p{
+    font-size: 1.5em;
 }
 .info-social {
     margin-top: 55%;
@@ -395,7 +399,7 @@ p {
 }
 .container-form-right{
     width: 700px;
-    background-color: #212124;
+    background-color: var(--text-black);
     height: 700px;
 
 
